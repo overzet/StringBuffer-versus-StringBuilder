@@ -25,7 +25,7 @@ public class ConcatTest {
         System.out.println("Time taken by StringBuilder: " + totalRunTimeStringBuilder + "ms");
 
         if (totalRunTimeStringBuffer < totalRunTimeStringBuilder) {
-            System.out.println("\nStringBuffer is the fastest");
+            System.out.println("\nStringBuffer is the fastest, so find the error because that's impossible");
         } else {
             System.out.println("\nQ: When would you use string builder and when string buffer?");
             System.out.println("\tA: StringBuilder is the fastest, but not thread safe. While StringBuffer is thread safe.\n" +
